@@ -1,5 +1,5 @@
 import { useState } from "react";
-import cleanAiText from "./cleanAiText";
+import cleanAiText from "./Cleanaitext.js";
 import "./Interview.css";
 
 const API_URL = "http://127.0.0.1:8000";
