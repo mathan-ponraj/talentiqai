@@ -2,7 +2,7 @@ import { useState } from "react";
 import cleanAiText from "./Cleanaitext.js";
 import "./Interview.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 // Turns the AI feedback (markdown / LaTeX text) into clean groups of lines
 function parseInterviewFeedback(text) {
