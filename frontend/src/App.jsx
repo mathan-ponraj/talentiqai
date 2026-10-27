@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import Interview from './Interview'
-import AuraBackground from './AuraBackground'
+import AuraBackground from './Aurabackground.jsx'
+import cleanAiText from './Cleanaitext.js'
 import CursorGrid from './CursorGrid'
-import cleanAiText from './cleanAiText'
 import './App.css'
 import heroImage from './assets/image.png'
 
