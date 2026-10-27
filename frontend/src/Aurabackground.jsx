@@ -1,4 +1,4 @@
-import "./AuraBackground.css";
+import "./Aurabackground.css";
 
 export default function AuraBackground({ children }) {
   return (
